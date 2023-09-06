@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="musicPlayer">
+    <h1>Lotus Boy</h1>
+    <h3>Punet Lord</h3>
+    <img src="./img/music1.png">
+    <input oninput="updateMusic()"   value="0" max="150" type="range" class="slider">
+
+    <div class="icon">
+        <i class="fa fa-backward"></i>
+        <div   class="circle"><i id="icon" onclick="myMusic()"  class="fa fa-play"></i></div>
+        <i class="fa fa-forward"></i>
+
+    </div>
+    <audio class="music" src=""></audio>
+        </div>
+         </div>
+    <script src="script.js"></script>
+</body>
+</html>
