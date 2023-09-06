@@ -11,7 +11,7 @@ const songs = [{
     title: 'Neffex-Cold',
     singer: 'Neffex',
     song: './song/song.mp3',
-    img: './img//music1.png'
+    img: './img//photo.jpg'
 
 }];
 
